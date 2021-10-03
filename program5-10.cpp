@@ -1,3 +1,70 @@
+////Make 2 class dm and bm, they take distance as input. one will take meter and centimeter
+////and other will take feet and inches. we have to enter data with the help of two 
+////object and add them and show the result in the form user ask.
+//class fi
+//{
+//    protected:
+//        int ft;
+//        float in;
+//    public:
+//        void setdata1(int feet , float inches)
+//        {
+//            ft=feet;
+//            in=inches;
+//        }
+//
+//};
+//class mc
+//{
+//    protected:
+//        int m,cm;
+//    public:
+//        void setdata2(int meter,int centimeter)
+//        {
+//            m=meter;
+//            cm=centimeter;
+//        }
+//};
+//class addinfeet : public fi , public mc
+//{
+//    protected:
+//        float a,f1,i1;
+//    public:
+//        a=m + (cm %100.0);
+//        void adding()
+//        {
+//            ft=ft+f1;
+//            in=in+i1;
+//            cout<<"length is "<<endl;
+//            cout<<"feet "<<ft<<" inch "<<in<<endl;
+//        }
+//};
+//class addinmeter : public fi , public mc
+//{
+//    int m1,cm1;
+//    public:
+//        float a;
+//        a=ft * 12 * 2.54 + in * 2.54;
+//        m1=a/100;
+//        cm1=a%100;
+//        void adding()
+//        {
+//            m=m1+m;
+//            cm=cm1+cm;
+//            cout<<"length is "<<endl;
+//            cout<<"meter="<<m<<" centimter="<<cm;
+//        }
+//};
+//int main()
+//{
+//    fi a;
+//    a.setdata1(5,6);
+//    mc b;
+//    b.setdata2(1,25);
+//    addinfeet c;
+//    c.adding();
+//    return 0;
+//}
 #include<iostream>
 using namespace std;
 
